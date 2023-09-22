@@ -1,0 +1,255 @@
+.header1 {
+
+  font-family: 'Inconsolata', monospace;
+  background-color: #f1f1f1;
+  text-shadow: 2px 2px #ff0000;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.container {
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+      height: 200px;
+      
+    }
+button {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    
+
+.button1{
+    background-color: #4CAF50;
+}
+
+
+
+
+
+.workexperienceheader1{
+
+  font-family: 'Cedarville Cursive', cursive;
+  background-color: #f1f1f1;
+  color: orange;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.roboticsheader1{
+
+  font-family: 'Inconsolata', monospace;
+  background-color: #f1f1f1;
+  color: blue;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.mycontactsheader1{
+
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f1f1f1;
+  color: green;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.meimage {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.name{
+
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  font-family: 'Comfortaa' serif;
+
+}
+
+.hobbies{
+
+position:relative;
+left:250px;
+font-family: 'Mulish', verdana;
+font-weight: bold;
+
+}
+
+.contacts{
+
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.jallofimg{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.RONALDO{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+
+
+
+}
+
+.accolades{
+
+  position:relative;
+  left:250px;
+  font-family: 'Mulish', verdana;
+  font-weight: bold;
+
+
+}
+
+.RASP{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35%;
+  max-height: 35%;
+
+
+
+}
+
+.car{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  max-height: 30%;
+
+
+}
+
+
+.form{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  left:250px;
+  font-family: 'Mulish', verdana;
+  font-weight: bold;
+
+
+}
+
+.form2{
+
+  display: block;
+  margin-left: relative;
+  margin-right: relative;
+  position:relative;
+  left:250px;
+  width:500px;
+  font-family: 'Mulish', verdana;
+  font-weight: bold;
+
+
+}
+
+.subform2{
+    display: block;
+  margin-left: relative;
+  margin-right: relative;
+  position:relative;
+  left:1px;
+  right:30px;    
+  width:500px;
+  height:100px;    
+  font-family: 'Mulish', verdana;
+  font-weight: bold;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+

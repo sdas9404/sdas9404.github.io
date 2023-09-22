@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+    <heah>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+
+        <title>SD.me</title>
+
+   <!-- styles required for search filter -->
+
+   <style>
+
+        #myInput {
+          background-image: url('/css/searchicon.png');
+          background-position: 10px 10px;
+          background-repeat: no-repeat;
+          width: 100%;
+          font-size: 20px;
+          padding: 12px 20px 12px 40px;
+          border: 5px solid #ddd;
+          margin-bottom: 12px;
+        }
+
+        #myTable {
+           border-collapse: collapse;
+           width: 100%;
+           border: 5px solid #ddd;
+           font-size: 18px;
+        }
+
+        #myTable th, #myTable td {
+            text-align: left;
+            padding: 12px;
+        }
+
+        #myTable tr {
+             border-bottom: 1px solid #ddd;
+        }
+
+        #myTable .header, #myTable tr:hover {
+             background-color: #F69884;
+        }
+</style>
+    </heah>
+
+
+    <body>
+
+        <div class = "mycontactsheader1">
+
+    <h1> Soccer/Football </h1>
+
+    </div>
+
+
+        <div class = "nav">
+
+       <a href="index.html">Home</a>
+       <a href="workexperience.html">Work Experience</a>
+       <a href="soccer.html">Soccer</a>
+       <a href="Robotics.html">Robotics</a>
+
+    </div>
+
+    <br>
+    <br>
+
+
+    <h3 style="position:relative; left:250px; font-family: 'Mulish', verdana; text-decoration: underline">My love for Football</h3>
+
+        <br>
+
+         <p style="position:relative; left:250px; font-family: 'Mulish', verdana;">
+
+             In the <i>United State and Canada</i>, the sport we call <em>Football</em> is often confused for American Football.
+             <br>Many people across the world call it Football, however, in North America it's known as Soccer.<br>
+             Personally, I love playing it and watching some of my Football idols. I was introduced to the sport
+             <br>when I was 14 years old and I loved it ever since. My favourite playing are when I scored a goal
+             <br>against a rival team in a Football Tournament.The team that I support is <b>Real Madrid </b>and my favourite
+             <br>player is <b>Cristiano Ronaldo</b>.
+
+        </p>
+
+        <h3 style="text-align:center; font-family: 'Mulish', verdana; text-decoration: underline">About Cristiano Ronaldo SIUUUU</h3>
+
+        <br>
+        <br>
+
+            <img class= "RONALDO" src="images/ronaldo.jpg">
+
+        <br>
+        <br>
+
+
+        <h3 style="position:relative; left:250px; font-family: 'Mulish', verdana; text-decoration: underline">His Accolades</h3>
+
+    <div class="accolades">
+
+    <ol>
+        <li>5x Ballon D'or</li>
+        <li>5x Champions League</li>
+        <li>4x UEFA Champions League Best Player</li>
+        <li>2x La Liga Champions</li>
+        <li>3x Premier League Champions</li>
+        <li>4x FA cup Winner</li>
+    </ol>
+
+    </div>
+
+    <br>
+
+
+
+
+    <h2 style="text-align:left 'Mulish', verdana; text-decoration: underline">Favourite Players</h2>
+
+    <br>
+
+    <!-- Javascript Implementation using Filter Search table -->
+
+    <input type="text" id="myInput"
+    onkeyup="myFunction()" placeholder="Search.." title="Type a name">
+
+    <table id="myTable">
+
+         <tr class="header">
+            <th style="width:35%;">Name</th>
+            <th style="width:35%;">Club</th>
+            <th style="width:35%;">Country</th>
+            <th style="width:35%;">Position</th>
+         </tr>
+
+      <tr>
+         <td>Cristiano Ronaldo</td>
+         <td>Juventus Fc</td>
+         <td>Portugal</td>
+         <td>Striker</td>
+      </tr>
+
+      <tr>
+
+        <td>Lionel Messi</td>
+        <td>Barcelona</td>
+        <td>Argentina</td>
+        <td>Right-Winger</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Zlatan Imbrahimovix</td>
+        <td>AC Milan</td>
+        <td>Sweden</td>
+        <td>Striker</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Harry Kane</td>
+        <td>Spurs</td>
+        <td>England</td>
+        <td>Striker</td>
+
+      </tr>
+
+       <tr>
+
+          <td>Jerome Boaten</td>
+          <td>Bayern Munich</td>
+          <td>Germany</td>
+          <td>Fullback</td>
+
+       </tr>
+
+      <tr>
+
+        <td>Luka Modric</td>
+        <td>Real Madrid</td>
+        <td>Croatia</td>
+        <td>Centre Midfielder</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Toni Kroos</td>
+        <td>Real Madrid</td>
+        <td>Germany</td>
+        <td>Centre Midfielder</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Keylor Navas</td>
+        <td>Paris Saint Germain</td>
+        <td>Costa Rica</td>
+        <td>Goalkeeper</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Suarez</td>
+        <td>Barcelona</td>
+        <td>Uruguay</td>
+        <td>Striker</td>
+
+      </tr>
+
+       <tr>
+
+          <td>Thomas Muller</td>
+          <td>Bayern Munich</td>
+          <td>Germany</td>
+          <td>Centre Attacking Midfielder</td>
+
+      </tr>
+
+       <tr>
+
+          <td>Eden Hazard</td>
+          <td>Real Madrid</td>
+          <td>Belgium</td>
+          <td>Left-Winger</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Alisson Becker</td>
+        <td>Liverpool</td>
+        <td>Brazil</td>
+        <td>Goalkeeper</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Antionne Greizmann</td>
+        <td>Barcelona</td>
+        <td>France</td>
+        <td>Left-Winger</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Ngolo Kante</td>
+        <td>Chelsea</td>
+        <td>France</td>
+        <td>Centre Midfielder </td>
+
+      </tr>
+
+      <tr>
+        <td>Edison Cavani</td>
+        <td>Paris Saint Germain</td>
+        <td>Uruguay</td>
+        <td>Striker</td>
+      </tr>
+
+      <tr>
+
+        <td>Kylian Mbappe</td>
+        <td>Paris Saint Germain</td>
+        <td>France</td>
+        <td>Striker</td>
+
+      </tr>
+
+       <tr>
+
+        <td>Marcelo</td>
+        <td>Real Madrid</td>
+        <td>Brazil</td>
+        <td>Left-Back</td>
+
+       </tr>
+
+        <tr>
+
+          <td>Bentacur</td>
+          <td>Juventus FC</td>
+          <td>Argentina</td>
+          <td>Centre Midfielder </td>
+
+        </tr>
+
+
+    </table>
+
+
+
+
+<script>
+
+    function myFunction()
+    {
+
+        var input;
+        var filter;
+        var table;
+        var tr;
+        var td;
+        var i;
+        var txtValue;
+
+        input = document.getElementById("myInput");
+
+        filter = input.value.toUpperCase();
+
+        table = document.getElementById("myTable");
+
+        tr = table.getElementsByTagName("tr");
+
+            for (i = 0; i < tr.length; i++)
+            {
+
+                 td = tr[i].getElementsByTagName("td")[0];
+
+                    if (td)
+                    {
+
+                        txtValue = td.textContent || td.innerText;
+
+                            if (txtValue.toUpperCase().indexOf(filter) > -1)
+                            {
+
+                                  tr[i].style.display = "";
+
+                            }
+
+                            else
+                            {
+
+                               tr[i].style.display = "none";
+
+                            }
+                     }
+            }
+    }
+</script>
+
+
+    <!-- Javascript Form-->
+
+    <script>
+
+        function fav()
+        {
+
+            let player = document.querySelector('#player').value;
+
+            if(player == '')
+            {
+
+                name = 'Enter Valid Player';
+
+
+            }
+            else
+            {
+
+                alert('Your favourite player is ' + player + '!');
+
+            }
+
+
+        }
+
+
+    </script>
+
+    <br>
+    <br>
+    <br>
+
+
+    <h3 style="position:relative; left:250px; font-family: 'Mulish', verdana; text-decoration: underline">What's Your favourite player</h3>
+
+    <br>
+
+
+    <div class = form>
+
+        <form onsubmit = "fav(); return false;">
+
+            <input type = "text" id = "player" placeholder = "Enter player">
+            <input type = "submit">
+
+        </form>
+
+    </div>
+
+    <br>
+    <br>
+
+
+      <div class="contacts">
+
+        <p> <a href="https://github.com/sumantra12?tab=overview&from=2020-02-01&to=2020-02-29">Github</a>
+
+        </p>
+
+      </div>
+
+
+
+    </body>
+</html>

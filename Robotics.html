@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+    <heah>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+        <title>SD.me</title>
+
+         <style>
+
+            .imgcarousel{
+
+                width: 100%;
+                height: 100%;
+
+            }
+        </style>
+
+    </heah>
+
+
+    <body>
+
+
+        <div class = "roboticsheader1">
+
+    <h1> Robotics </h1>
+
+    </div>
+
+
+        <div class = "nav">
+
+       <a href="index.html">Home</a>
+       <a href="workexperience.html">Work Experience</a>
+       <a href="soccer.html">Soccer</a>
+       <a href="Robotics.html">Robotics</a>
+
+    </div>
+
+    <br>
+    <br>
+
+     <h3 style="position:relative; left:250px; font-family: 'Mulish', verdana; text-decoration: underline">Using the Raspberry Pi</h3>
+
+         <br>
+
+        <p style="position:relative; left:250px; font-family: 'Mulish', verdana;">
+
+            In 10th grade I was I took a course that my school offered, and it was called <b>Computer Engineering</b>.<br>It
+            introduced to the world of electronics, and how we are able use code to manipulate electronics to do
+            <br>various tasks. This was the first time I was able to use the <a href="https://www.raspberrypi.org/">
+            Raspberry Pi 3</a>, a small computer, thatis<br>programmed to teach computing and use electronics create projects.
+            My favourite project were using the<br>concepts of <em>robotics </em> to build a autonomous buggy car.
+            From that day forth, I've tried to build different types<br>of robotics outside of class and join contest with
+            friends to challenge ourselfves.
+
+
+        </p>
+
+    <h3 style="text-align:center; font-family: 'Mulish', verdana; text-decoration: underline">About the Raspberry Pi</h3>
+
+
+
+       <br>
+       <br>
+       <br>
+
+
+           <img class= "RASP" src="images/rasp.jpg">
+
+
+        <br>
+        <br>
+        <br>
+
+        <p style="position:relative; left:250px; font-family: 'Mulish', verdana;">
+
+          With the <i>features</i> of the <b>Raspberry Pi</b> we were ablt to use different electronic components,
+          like jumper cables, <br>sensors, LEDS, resistors, transistors and plethora of electronics to build
+          differnet projects. The <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">features</a>
+          that allow<br>us to do this is, 40-pin GPIO, Micro SD port, 1GB RAM, 1.2 Ghz quad core Broadcom 64 bit cpu
+          and 4 USB 2 ports.
+
+
+        </p>
+
+       <br>
+       <br>
+       <br>
+
+    <h3 style="text-align:center; font-family: 'Mulish', verdana; text-decoration: underline">How to build Autonomous Car</h3>
+
+
+       <br>
+       <br>
+
+            <img class= "car" src="images/car.jpeg">
+
+        <br>
+        <br>
+
+
+
+    <h3 style="text-align: left; font-family: 'Mulish', verdana; text-decoration: underline">Tools</h3>
+
+
+        <br>
+        <br>
+
+
+
+
+    <!--undordered list to list the number of tools-->
+
+    <ul>
+
+        <li>Raspberry Pi 3</li>
+        <li>Soldering Machine</li>
+        <li>Jumper Cables</li>
+        <li>4 AA batteries</li>
+        <li>Car chaises</li>
+        <li>mini-breadboard</li>
+        <li>4 resistors</li>
+        <li>2 6v DC motors</li>
+        <li>1 AA battery holder</li>
+        <li>Motor Controller Board</li>
+
+
+    </ul>
+
+    <br>
+    <br>
+
+     <div style = "text-align: center; padding: 20px; font-family: 'Comic Neue', cursive;">
+
+       <h2 style = "font-size: 50px"> My Projects </h2>
+
+    </div>
+
+
+      <div class="container mt-3">
+            <div id="myCarousel" class="carousel slide">
+
+
+                  <ul class="carousel-indicators">
+                       <li class="project1 active"></li>
+                       <li class="project2"></li>
+                       <li class="project3"></li>
+                  </ul>
+
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="images/car.jpeg" alt="car" width="1000" height="500">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/ledtower.webp" alt="LED" width="1000" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="images/sensor.webp" alt="lightsensor" width="1000" height="500">
+
+                </div>
+              </div>
+
+
+    <a class="carousel-control-prev" href="#myCarousel">
+        <span class="carousel-control-prev-icon">
+        </span>
+    </a>
+
+    <a class="carousel-control-next" href="#myCarousel">
+        <span class="carousel-control-next-icon">
+        </span>
+    </a>
+
+        </div>
+    </div>
+
+
+
+    <script>
+
+     $(document).ready(function(){
+
+         $("#myCarousel").carousel();
+
+
+             $(".project1 active").click(function(){
+
+                    $("#myCarousel").carousel(0);
+
+             });
+
+             $(".project2").click(function(){
+
+                  $("#myCarousel").carousel(1);
+
+             });
+
+            $(".project3").click(function(){
+
+                $("#myCarousel").carousel(2);
+
+             });
+
+
+        $(".carousel-control-prev").click(function(){
+
+            $("#myCarousel").carousel("prev");
+
+        });
+
+        $(".carousel-control-next").click(function(){
+
+            $("#myCarousel").carousel("next");
+
+            });
+        });
+    </script>
+
+        <br>
+        <br>
+
+
+
+
+
+     <div class="contacts">
+
+        <p><a href="https://github.com/sumantra12?tab=overview&from=2020-02-01&to=2020-02-29">Github</a>
+        </p>
+
+      </div>
+
+    </body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+
+<html lang= "en">
+
+    <heah>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <title>SD.me</title>
+
+        <style>
+
+            .imgcarousel{
+
+                width: 100%;
+                height: 100%;
+
+            }
+        </style>
+    </heah>
+
+
+    <body>
+
+   <div class = "workexperienceheader1">
+
+    <h1> My Work Experience </h1>
+
+    </div>
+
+
+        <div class = "nav">
+
+       <a href="index.html">Home</a>
+       <a href="workexperience.html">Work Experience</a>
+       <a href="soccer.html">Soccer</a>
+       <a href="Robotics.html">Robotics</a>
+
+    </div>
+
+    <div style = "text-align: center; padding: 20px; font-family: 'Comic Neue', cursive;">
+
+       <h2 style = "font-size: 50px"> Working at Kumon as a Grader </h2>
+
+
+    <!-- Boostrap Feature Implementation -->
+         <div class="container mt-3">
+            <div id="myCarousel" class="carousel slide">
+
+
+                  <ul class="carousel-indicators">
+                       <li class="food1 active"></li>
+                       <li class="food2"></li>
+                       <li class="food3"></li>
+                  </ul>
+
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="images/kumon1.png" alt="fish" width="1000" height="500">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/kumon2.jpeg" alt="cake" width="1000" height="500">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="images/kumon3.jpeg" alt="biryani" width="1000" height="500">
+                </div>
+              </div>
+
+
+    <a class="carousel-control-prev" href="#myCarousel">
+        <span class="carousel-control-prev-icon">
+        </span>
+    </a>
+
+    <a class="carousel-control-next" href="#myCarousel">
+        <span class="carousel-control-next-icon">
+        </span>
+    </a>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+     <h3 style="text-align: left; font-family: 'Mulish', verdana; text-decoration:underline">Job Description</h3>
+
+     <br>
+
+         <p style="text-align: left; font-family: 'Mulish', verdana;">
+
+            My <em>Passion</em> for <b>mathematics</b> came when I was only 11 years. Thats when I decided to help kids at Kumon, as at one point I was in their shoes.<br> 
+            I have to help the instructor grade and assign homework and classwork to students. I also had to communicate with my coworkers to plan future<br> homework and achievement tests. Apart from that I grade all levels for mathematics and reading from grade 1 - university level math. 
+                
+         </p>
+
+         <br>
+
+    <div style = "text-align: center; padding: 20px; font-family: 'Comic Neue', cursive;">
+
+      <h2 style = "font-size: 50px"> My responsibilities </h2>
+
+    </div>
+
+    <br>
+
+    <img class= "jallofimg" src="images/grading.jpeg">
+
+    <br>
+    <br>
+
+    <h3 style = "text-align:left; font-family: 'Mulish', verdana;"> Responsibilities </h3>
+
+
+
+
+        <ul>
+          <li style = "text-align:left; font-family: 'Mulish', verdana;"> Grading Math and Reading for all Levels</li>
+          <li style = "text-align:left; font-family: 'Mulish', verdana;">Recording grades for each student</li>
+          <li style = "text-align:left; font-family: 'Mulish', verdana;">Assigning homework and classwork</li>
+          <li style = "text-align:left; font-family: 'Mulish', verdana;">Communicating Progress with instructor</li>
+          <li style = "text-align:left; font-family: 'Mulish', verdana;">Helping students when needed</li>
+        </ul>
+
+
+
+<script>
+
+     $(document).ready(function(){
+
+         $("#myCarousel").carousel();
+
+
+             $(".food1 active").click(function(){
+
+                    $("#myCarousel").carousel(0);
+
+             });
+
+             $(".food2").click(function(){
+
+                  $("#myCarousel").carousel(1);
+
+             });
+
+            $(".food3").click(function(){
+
+                $("#myCarousel").carousel(2);
+
+             });
+
+
+        $(".carousel-control-prev").click(function(){
+
+            $("#myCarousel").carousel("prev");
+
+        });
+
+        $(".carousel-control-next").click(function(){
+
+            $("#myCarousel").carousel("next");
+
+        });
+    });
+</script>
+
+    <br>
+    <br>
+
+
+         <div class="contacts">
+
+        <p><a href="https://github.com/sumantra12?tab=overview&from=2020-02-01&to=2020-02-29">Github</a>
+        </p>
+
+      </div>
+
+
+    </body>
+</html>
